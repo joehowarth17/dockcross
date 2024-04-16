@@ -7,7 +7,8 @@ ROOT=${PWD}
 
 usage() { echo "Usage: $0 -c <config-path> -v <version>" 1>&2; exit 1; }
 
-REPO_URL="https://github.com/buildroot/buildroot.git"
+#REPO_URL="https://github.com/buildroot/buildroot.git"
+REPO_URL="https://github.com/joehowarth17/buildroot.git"
 
 CONFIG_PATH=""
 REV="2021.08-rc1"
